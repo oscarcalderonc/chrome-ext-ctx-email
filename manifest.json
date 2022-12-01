@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Test scan text",
+  "version": "1.0",
+  "description": "Find email address in the right clicked text",
+
+  "icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "permissions": [
+    "contextMenus", "activeTab", "tabs", "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
